@@ -11,15 +11,18 @@ It handles authentication, patient management, doctor scheduling, appointments, 
    ```bash
       git clone https://github.com/BhanuVignesh2300033284/hospital-backend.git
 2. Navigate to the project directory
+   ```bash
+   cd hospital-backend
+3. Run the backend using Docker
+   ```bash
+   docker compose up -d --build
 
-cd hospital-backend
-
-3. Start the Spring Boot application (using your IDE or command line)
+4. Start the Spring Boot application (using your IDE or command line)
    The backend will run on:
    http://localhost:8081
    
 🧪 Output Verification
-# To verify the backend API is working correctly, open this link in your browser or API tool:
+ To verify the backend API is working correctly, open this link in your browser or API tool:
 
 http://localhost:8081/auth/signup?username=testuser&email=testuser@gmail.com&password=admin123
 
